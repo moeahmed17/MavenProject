@@ -26,6 +26,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class RegisterUsers extends AbstractClass_MethodOverride{
 
+    String abc;
     @Test
     public static void SignUp_LogIn() throws IOException, BiffException, InterruptedException, WriteException {
 
@@ -78,7 +79,6 @@ public class RegisterUsers extends AbstractClass_MethodOverride{
 
             LogIn.LogIn(UserName, Password);
 
-            BookFlight.
         }
 
         writeableWorkbook.write();
