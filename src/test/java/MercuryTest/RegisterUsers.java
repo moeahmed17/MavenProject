@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class RegisterUsers extends AbstractClass_MethodOverride{
 
-    String abc;
+    String abcd;
     @Test
     public static void SignUp_LogIn() throws IOException, BiffException, InterruptedException, WriteException {
 
